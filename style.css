@@ -1,0 +1,57 @@
+.bouton {
+    background-color: #4CAF50; /* couleur de fond */
+    color: white; /* couleur de texte */
+    padding: 12.5px 30px; /* espacement intérieur */
+    font-size: 1.25em;
+    border: none; /* suppression de la bordure */
+    border-radius: 5px; /* arrondissement des coins */
+    cursor: pointer; /* curseur pointer au survol */
+    margin: 5px; /* espacement extérieur */
+    transition: background-color 0.3s; /* transition de couleur */
+  }
+  
+  .bouton:hover {
+    background-color: #3e8e41; /* couleur de fond au survol */
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow:hidden
+  }
+  h1 {
+    text-align: center;
+    font-size: 3rem; /* taille de police agrandie */
+    font-family: "Open Sans", sans-serif; /* police de caractères */
+    color: #0a77dd; /* couleur du texte */
+    letter-spacing: 2px; /* espacement entre les lettres */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* ombre portée */
+    margin-bottom: 20px;
+  }
+  .titre-boutons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #resultats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%; /* largeur de la zone de résultats */
+    height: 200px; /* hauteur de la zone de résultats */
+    border: 1px solid black; /* bordure de la zone de résultats */
+    margin: 0 auto; /* centrage horizontal de la zone de résultats */
+    text-align: center; /* centrage vertical du texte à l'intérieur de la zone */
+    font-size: 20px; /* taille de police du texte à l'intérieur de la zone */
+    font-family: "Roboto", sans-serif;
+  }
+  select {
+    height: 50px; /* Spécifie une hauteur de 50 pixels pour le menu déroulant */
+    font-size: 115%; /* agrandir la police d'écriture de 15% */
+    padding: 0.3em; /* ajouter un peu d'espace autour du texte */
+   width: 100%; /* utiliser la largeur complète disponible */
+   max-width: 300px; /* définir une largeur maximale pour éviter que le menu ne devienne trop large */
+  }
+  
